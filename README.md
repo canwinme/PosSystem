@@ -110,7 +110,7 @@ PosSystem/
 Linux 환경에서 GCC로 컴파일합니다.
 
 ```bash
-gcc src/possystem.c -o possystem
+gcc possystem.c -o possystem
 ```
 
 프로그램은 실행 위치의 `items.csv`, `users.csv`, `batches.csv`를 읽으므로 다음처럼 data 폴더에서 실행하거나 CSV 파일을 실행 위치에 복사해서 사용할 수 있습니다.
